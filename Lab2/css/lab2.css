@@ -1,0 +1,142 @@
+header, footer{
+    color: white;
+    background-color: #312C32;
+    margin: 0em 4em 0.5em 4em;
+    
+   
+}
+
+header{
+    padding-bottom:15px;
+    padding-left:10px;
+}
+
+footer{
+    padding:15px;
+}
+
+
+
+
+header nav ul li{
+    color:#98DAFC;
+    display:inline-block;
+}
+
+h1,h2,h3,nav,footer{
+    font-family:"Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+h1{
+    font-size:1.5em;
+}
+
+h2{
+    font-size:0.75em;
+}
+
+h3, nav{
+    font-size:1.125em;
+}
+
+
+body{
+    font-family:Georgia, Cambria, "Times New Roman", serif;
+}
+
+a:link{
+    color:#98dafc;
+    font-weight:bold;
+}
+
+a:visited {
+    color: #DAAD86; 
+    text-decoration: underline;
+    text-decoration-color:#DAAD86;
+    
+}
+
+a:hover{
+   color: #FFFFCC;
+}
+
+body{
+    background-color:#98DAFC;
+    font-size:100%;
+}
+
+
+.byline {
+    color:grey;
+    font-style:italic;
+    border-top:1px solid black;
+    padding-top:10px;
+}
+
+figure .byline {
+ border-style:none;
+ padding-bottom:10px;
+ padding-top:0px;
+}
+
+
+.first-img{
+    border:1px solid black;
+    padding:0.25em;
+    width:98%;
+    margin:auto;
+}
+
+.Pixbay {
+    color:#daad86;
+}
+
+
+
+
+.share{
+    display: flex;
+    align-items: center;
+    background-image:url("../images/gray-gradient.png");
+    background-repeat:repeat-x;
+    border-radius:10px;
+    line-height:50px;
+    border:1px solid grey;
+    padding-left:10px;
+    
+  
+}
+
+
+.share span{
+    vertical-align: middle;
+}
+
+.share-text{
+    font-size:70%;
+    padding-bottom:5px;
+}
+
+#information{
+    background-color: white;
+    margin: 0em 4em 0.5em 4em; 
+    padding-bottom:25px;
+    
+}
+
+section {
+    margin:20px 25px ;
+    
+}
+
+
+.comment {
+    border-bottom:1px dotted grey;
+    margin-bottom:25px;
+}
+
+#Related-Photos h3{
+    border-bottom:1px solid black;
+    margin-bottom:15px;
+
+}

@@ -1,0 +1,15 @@
+.navbar-brand {
+    font-weight: bold;
+  }
+  .user-info {
+    margin-top: 50px;
+  }
+  .user-info .rectangle {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .login{
+    margin-left:0.3em;
+  }

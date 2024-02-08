@@ -1,0 +1,50 @@
+caption{
+    background-color:darkgreen;
+    padding:10px;
+
+}
+
+table{
+    border-collapse:collpase;
+    background-color:lightgrey;
+}
+
+th{
+    font-size:8px;
+}
+
+td,th{
+    border:1px solid #ddd;  
+    text-align:center;
+    padding:10px;
+    border:1px solid grey;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adjust these values for the desired 3D effect */
+
+}
+
+a{
+    color:aqua;
+    text-decoration:underline;
+}
+
+td:visited, th:visited {
+    color:white;
+    background-color:aqua;
+}
+
+#today {
+    color:white;
+    background-color:aqua;
+}
+
+th:hover, td:hover {
+    background-color:red;
+}
+
+#prev a, #next a {
+    color:black;
+}
+
+form{
+    background-color:goldenrod;
+}
