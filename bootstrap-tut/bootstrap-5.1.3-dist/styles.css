@@ -5,11 +5,43 @@
     margin-top: 50px;
   }
   .user-info .rectangle {
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 20px;
     margin-bottom: 10px;
   }
 
-  .login{
-    margin-left:0.3em;
+
+  body{
+    background-color:#EEB868;
   }
+
+
+  nav{
+    background-color:#EF767A;
+    font-family: 'Work Sans', sans-serif;
+
+  }
+
+  .rectangle p, h2, #title-heading, #body-heading{
+    font-family: 'Lato', sans-serif;
+
+  }
+
+  .dropdown-item{
+    font-family: 'Martel Sans', sans-serif;
+
+  }
+
+  .border-dark{
+    border-width:20px;
+    border-style:solid;
+  }
+
+  .navbar-toggler-icon{
+    background-color:transparent;
+    border:none;
+  }
+
+.login-btn, .reg-btn, .submit-btn{
+    background-color:#456990;
+}

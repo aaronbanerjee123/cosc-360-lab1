@@ -4,17 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>InsightInk - Home</title>
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <!-- Custom CSS -->
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Martel+Sans&family=Work+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
 
- 
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Custom styles */
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .user-info {
+      margin-top: 50px;
+    }
+    .user-info .rectangle {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+    .sidebar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: none;
+    }
+    .sidebar.show {
+      display: block;
+    }
+    .sidebar .rectangle {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
 
@@ -34,9 +62,8 @@
           <a class="dropdown-item" href="#">User 1</a>
           <a class="dropdown-item" href="#">User 2</a>
           <a class="dropdown-item" href="#">User 3</a>
-          <a class="dropdown-item" href="newBlog.html"><button type="button" class="btn btn-light">+ Create Post</button></a> 
+          <a class="dropdown-item" href="#"><button type="button" class="btn btn-light">+ Create Post</button></a> 
           <a class="dropdown-item" href="feed.html">My feed</a>
-
           <div class="dropdown-divider"></div>
         </div>
       </li>
@@ -54,53 +81,48 @@
       <li class="nav-item">
         <a class="nav-link" href="profilePage.html"><button class="btn btn-outline-primary">Profile</button></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item login">
         <a class="nav-link" href="loginPage.html"><button class="btn btn-outline-primary">Login</button></a>
       </li>
     </ul>
   </div>
 </nav>
 
-<!-- Centered Login Form and Sign Up Section with Border -->
-
-<div class="container mt-4">
+<!-- Content -->
+<div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-6">
-      <div class="border border-5 border-dark p-4">
-        <h2 class="text-center mb-4 login-heading">Login</h2>
-        <form>
-          <div class="form-group">
-            <label for="username">Username</label>
-            <input type="text" class="form-control" id="username" placeholder="Enter username">
-          </div>
-          <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Password">
-          </div>
-          <button type="submit" class="btn btn-primary btn-block login-btn">Login</button>
-        </form>
+      <h2>Notifications</h2>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Username</h5>
+          <p class="card-text">Posted</p>
+        </div>
+      </div>
+      <div class="card mt-3">
+        <div class="card-body">
+          <h5 class="card-title">Username</h5>
+          <p class="card-text">Posted</p>
+        </div>
+      </div>
+      <div class="card mt-3">
+        <div class="card-body">
+          <h5 class="card-title">Username</h5>
+          <p class="card-text">Posted</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
-  <div class="row justify-content-center mt-4">
-    <div class="col-md-6 border border-dark">
-      <div class="p-4">
-       
-        <p class="text-center mb-0">Don't have an account? <button type="submit" class="btn btn-block login-btn"><a href="signupPage.html" class="btn">Sign Up</a></button> </p>
-      </div>
-    </div>
-  </div>
-
-
-
-<!-- Font Awesome -->
-<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <!-- Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  // Function to toggle sidebar
+
+</script>
 
 </body>
 </html>

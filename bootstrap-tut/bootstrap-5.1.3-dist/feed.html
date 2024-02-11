@@ -9,40 +9,18 @@
   <!-- Font Awesome CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <!-- Custom CSS -->
-  <style>
-    /* Custom styles */
-    .navbar-brand {
-      font-weight: bold;
-    }
-    .user-info {
-      margin-top: 50px;
-    }
-    .user-info .rectangle {
-      border: 1px solid #ccc;
-      padding: 20px;
-      margin-bottom: 10px;
-    }
-    .sidebar {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      z-index: 1000;
-      display: none;
-    }
-    .sidebar.show {
-      display: block;
-    }
-    .sidebar .rectangle {
-      border: 1px solid #ccc;
-      padding: 20px;
-      margin-bottom: 10px;
-    }
-  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Martel+Sans&family=Work+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+ 
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -57,7 +35,7 @@
           <a class="dropdown-item" href="#">User 1</a>
           <a class="dropdown-item" href="#">User 2</a>
           <a class="dropdown-item" href="#">User 3</a>
-          <a class="dropdown-item" href="#"><button type="button" class="btn btn-light">+ Create Post</button></a> 
+          <a class="dropdown-item" href="newBlog.html"><button type="button" class="btn btn-light">+ Create Post</button></a> 
           <a class="dropdown-item" href="feed.html">My feed</a>
 
           <div class="dropdown-divider"></div>
@@ -189,3 +167,4 @@
 
 </body>
 </html>
+

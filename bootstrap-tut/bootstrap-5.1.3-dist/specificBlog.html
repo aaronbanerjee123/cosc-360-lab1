@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specific Blog - InsightInk</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel = "stylesheet" href="styles.css">
+  <style>
+    /* Custom styles */
+    .navbar-brand {
+      font-weight: bold;
+    }
+    .user-info {
+      margin-top: 50px;
+    }
+    .user-info .rectangle {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 10px;
+      cursor: pointer; /* Add cursor pointer */
+    }
+    .sidebar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: none;
+    }
+    .sidebar.show {
+      display: block;
+    }
+    .sidebar .rectangle {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <button class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Following</a>
+          <a class="dropdown-item" href="#">User 1</a>
+          <a class="dropdown-item" href="#">User 2</a>
+          <a class="dropdown-item" href="#">User 3</a>
+          <a class="dropdown-item" href="newBlog.html"><button type="button" class="btn btn-light">+ Create Post</button></a> 
+          <a class="dropdown-item" href="feed.html">My feed</a>
+
+          <div class="dropdown-divider"></div>
+        </div>
+      </li>
+    </ul>
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <input type="text" class="form-control" placeholder="Search">
+      </li>
+    </ul>
+    <span class="navbar-brand mx-auto">InsightInk</span>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="notifications.html"><i class="fas fa-bell"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="profilePage.html"><button class="btn btn-outline-primary">Profile</button></a>
+      </li>
+      <li class="nav-item login">
+        <a class="nav-link" href="loginPage.html"><button class="btn btn-outline-primary">Login</button></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Content -->
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Title</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut ante eget eros eleifend auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Integer rutrum est non lacus lacinia, ut tincidunt dolor porttitor. In non massa in lectus lacinia hendrerit nec sit amet arcu. Duis vel nunc vel arcu sodales dapibus. Ut vel posuere lorem. Sed sollicitudin quam eget libero rhoncus, in pharetra nunc scelerisque. Vivamus et mi ligula. Duis vestibulum lorem quis magna feugiat, a egestas mauris volutpat.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" id="commentInput" placeholder="Write a comment">
+        </div>
+        <button type="submit" class="btn btn-primary">Comment</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <!-- Card 1 -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Username</h5>
+          <p class="card-text">Comment: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Username</h5>
+          <p class="card-text">Comment: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Username</h5>
+          <p class="card-text">Comment: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
